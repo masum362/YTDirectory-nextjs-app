@@ -1,19 +1,9 @@
-import React from "react";
+import React from 'react'
 
-const Home = () => {
+const page = () => {
   return (
-    <div>
-      <section className="pin-container">
-        <h1 className="heading">
-          Pitch your startup, <br />
-          connect with entrepreneurs.
-        </h1>
-        <p className="sub-heading !max-w-3xl">
-          Submit Ideas, Vote on pitches, and get noticed in virtual competitions
-        </p>
-      </section>
-    </div>
-  );
-};
+    <div>Home page</div>
+  )
+}
 
-export default Home;
+export default page
