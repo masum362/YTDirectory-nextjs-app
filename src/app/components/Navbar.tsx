@@ -1,4 +1,5 @@
 import { auth, signIn, signOut } from "@/auth";
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -33,7 +34,7 @@ const Navbar = async () => {
                 'use server';
                 await signIn("github")
             }}>
-                <button type="submit">Login</button>
+                <Button type="submit">Login</Button>
             </form>
             </>
           )}
