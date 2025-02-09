@@ -34,7 +34,7 @@ const Navbar = async () => {
                 'use server';
                 await signIn("github")
             }}>
-                <Button type="submit">Login</Button>
+                <button type="submit">Login</button>
             </form>
             </>
           )}
