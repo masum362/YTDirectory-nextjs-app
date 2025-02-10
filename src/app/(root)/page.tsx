@@ -17,13 +17,16 @@ const HomePage = async ({
       category: "Tech",
       votes: 10,
       comments: 5,
-      image: "https://via.placeholder.com/150",
+      image: "https://www.shutterstock.com/shutterstock/photos/400060879/display_1500/stock-vector-thin-line-flat-design-banner-for-startup-web-page-finance-investment-banking-startup-loans-new-400060879.jpg",
       author:{
-        _id:1
+        _id:1,
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT82d1IvIFFbVxISasKwivmENyT4ahN-0fxyA&s",
+        name: "dssd"
       },
       _id:1
 
-    }
+    },
+
   ]
 
   return (
@@ -41,7 +44,7 @@ const HomePage = async ({
       </section>
       <section className="section_container">
         <p className="text-30-semibold">{query ? `Search results for ${query}` : "All Startups"}</p>
-        <ul className="mt-7 card-grid">
+        <ul className="mt-7 card_grid">
     {
       posts.length >0 ? (
         posts.map((post) => (
